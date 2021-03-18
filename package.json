@@ -1,0 +1,25 @@
+{
+  "name": "toshia_moi_mentor_dorogoi",
+  "version": "1.0.0",
+  "description": "pet project",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agsaone/Toshia_moi_mentor_dorogoi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agsaone/Toshia_moi_mentor_dorogoi/issues"
+  },
+  "homepage": "https://github.com/Agsaone/Toshia_moi_mentor_dorogoi#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
