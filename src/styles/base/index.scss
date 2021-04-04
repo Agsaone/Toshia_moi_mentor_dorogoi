@@ -1,19 +1,20 @@
-html {
-  box-sizing: border-box;
-}
-
-nav {
-  background-color: #313030;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   margin:0; 
 }
 
-li{
+a {
   list-style-type: none;
 }
+
+a:hover {
+  background: #ff3f40;
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 34px 0 34px 0;
+}
+
+
 
 
 
