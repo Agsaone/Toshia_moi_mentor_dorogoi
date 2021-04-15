@@ -1,12 +1,45 @@
-.button{
-   background-color: #ff2d2d;
-   color: #ffffff;
-   padding: 10px 53px;
-   border-radius: 5px;
-   font-size: 18.5px;
-   font-weight: bold;
-   font-stretch: normal;
-   font-style: normal;
-   line-height: 1.84;
-   letter-spacing: 0.46px;
+.button-primary {
+  background: none;
+  color: #ff2d2d;
+  padding: 10px 53px;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.84;
+  letter-spacing: 0.46px;
+  transition: all 0.2s;
+  &:hover {
+    background-color: #ff2d2d;
+    color: #fff;
+  }
 }
+
+.button-secondary {
+  padding: 10px 53px;
+  border-radius: 5px;
+  border: solid 2px #ff0000;
+  background: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.84;
+  letter-spacing: 0.46px;
+  text-align: left;
+  color: #ff2d2d;
+  transition: all 0.2s;
+  &:hover { 
+   background-color:#ff2d2d;
+   color: #fff;
+  }
+}
+
+
+       
+
+
+
+
+

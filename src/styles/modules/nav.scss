@@ -3,14 +3,23 @@
    justify-content: center; 
    box-sizing: border-box;
    background-color: #313030;
+   & a:hover {
+      background: #ff3f40;
+      color: #e0e0e0;
+      text-decoration: none;
+      padding: 34px 58px;
+   }
 }
 
 .nav-item { 
-   margin: 0 58px 0 58px;
-   padding: 34px 0 34px 0;
    color: #b1b1b1;
    text-decoration: none;
+   padding: 34px 58px;
 }
+
+
+
+
 
 
 
