@@ -1,0 +1,29 @@
+.nav {
+   display: flex;
+   justify-content: center; 
+   box-sizing: border-box;
+   background-color: #313030;
+   & a:hover {
+      background: #ff3f40;
+      color: #e0e0e0;
+      text-decoration: none;
+      padding: 34px 58px;
+   }
+}
+
+.nav-item { 
+   color: #b1b1b1;
+   text-decoration: none;
+   padding: 34px 58px;
+}
+
+
+
+
+
+
+
+
+
+
+

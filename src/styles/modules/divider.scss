@@ -1,0 +1,41 @@
+.feature-products-text p {
+   position: relative;
+   &::after {
+   content: '';
+   display: block;
+   width: 132px; 
+   height: 3px; 
+   background-color:#ff2d2d;
+   position: absolute;
+   left: 44%;
+   margin-top: 29px;
+  }
+}
+
+.feature-products {
+   position: absolute;
+   &::before {
+   content: '';
+   display: block;
+   height: 2px; 
+   background-color: #ececec; 
+   margin-top: 108px;
+   position: relative;
+   }
+}
+
+.meet-team p {
+   position: relative;
+   &::after {
+      content: '';
+      display: block;
+      width: 132px;
+      height: 3px;
+      background-color: #ff2d2d;
+      position: absolute;
+      margin-top: 33px;
+   }
+}
+
+
+
